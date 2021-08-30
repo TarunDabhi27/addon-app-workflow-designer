@@ -1,0 +1,38 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "locale-messages_en-US_helloworld_messageConfig",
+            "name": "locale-messages_en-US_helloworld",
+            "version": "1.0",
+            "type": "messageConfig",
+            "properties": {
+                "createdByService": "system",
+                "createdBy": "system"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "locale-messages",
+                            "locale": "en-US",
+                            "tenant": "_DEFAULT",
+                            "addOnApp": "helloworld"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "messages": {
+                                    "helloworldSamMsg": "This is a sample locale message!"       
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

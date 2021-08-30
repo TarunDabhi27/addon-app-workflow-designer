@@ -1,0 +1,54 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "{{TENANT}}_override_export_connectors_box_syndicate_assets",
+      "name": "{{TENANT}}_override_export_connectors_box_syndicate_assets",
+      "type": "integrationprofile",
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "Connector",
+              "service": "ENTITY_EXPORT",
+              "channel": "BOX_SYNDICATE_ASSET",
+              "format": "JSON",
+              "source": "internal",
+              "role": "admin",
+              "user": "system",
+              "subtype": "System",
+              "order": "10"
+            },
+            "jsonData": {
+              "collect": {
+                "filter": {
+                  "include": {
+                    "queryFields": {
+                      "attributes": []
+                    },
+                    "typesCriterion": {
+                      "product": {
+                        "queryFields": {
+                          "relatedEntitiesRelationships": [
+                            "hasimages",
+                            "hasaudio",
+                            "hasvideo",
+                            "hasdocuments"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

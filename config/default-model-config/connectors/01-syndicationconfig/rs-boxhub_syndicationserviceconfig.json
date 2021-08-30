@@ -1,0 +1,54 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rs-boxhub_syndicationserviceconfig",
+      "name": "Box Connector",
+      "type": "syndicationserviceconfig",
+      "properties": {
+        "hub": "rshub",
+        "syndicationservicetype": "datatransfer",
+        "isEnabled": "true"
+      },
+      "data": {
+        "jsonData": {
+          "profilecontexts": [
+            {
+              "syndicate": {
+                "app": "Connector",
+                "service": "ENTITY_EXPORT",
+                "channel": "BOXHUB_SYNDICATE_ASSET",
+                "format": "JSON",
+                "source": "internal"
+              }
+            },
+            {
+              "withdraw": {}
+            }
+          ],
+          "syndicationSourceContext": {
+            "contextName": "self",
+            "contextValue": "self"
+          },
+          "settings": {
+            "baseurl": "https://upload.box.com/api/2.0",
+            "authurl": "https://api.box.com/oauth2/token",
+            "rsclientid": "[BOX CLIENT ID]",
+            "rsclientsecret": "[BOX CLIENT SECRET]",
+            "maxFileSize": "100000",
+            "parentFolder": "0",
+            "publicKeyID": "[BOX PUBLIC KEY ID]",
+            "privateKey": "[BOX PRIVATE KEY]",
+            "passphrase": "[BOX PASSPHRASE]",
+            "enterpriseID": "[BOX ENTERPRISE ID]"
+          },
+          "hubSettings": {}
+        }
+      }
+    }
+  ]
+}

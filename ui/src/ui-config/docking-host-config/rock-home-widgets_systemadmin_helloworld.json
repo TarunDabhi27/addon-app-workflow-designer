@@ -1,0 +1,67 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-home-widgets_systemadmin_helloworld_uiConfig",
+            "name": "rock-home-widgets_systemadmin_helloworld",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-home-widgets",
+                            "role":"systemadmin",
+                            "addOnApp": "helloworld"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "widgets": {
+                                    "plugin-hello-world": {
+                                        "name": "plugin-hello-world",
+                                        "displaySequence": 30,
+                                        "nonClosable": true,
+                                        "nonMaximizable": true,
+                                        "nonDraggable": false,
+                                        "config": {
+                                            "heading": "Hello World",
+                                            "headerIcon": "pebble-icon:saved-search",
+                                            "position-x": 6,
+                                            "position-y": 3,
+                                            "width": 4,
+                                            "height": 10,
+                                            "iconButtons": {
+                                                "refresh": {
+                                                    "name": "refresh",
+                                                    "label": "Refresh",
+                                                    "icon": "pebble-icon:refresh",
+                                                    "showInMoreActions": false
+                                                },
+                                                "Settings": {
+                                                    "name": "settings",
+                                                    "label": "settings",
+                                                    "icon": "pebble-icon:settings",
+                                                    "showInMoreActions": false
+                                                }
+                                            },
+                                            "component": {
+                                                "name": "plugin-hello-world",
+                                                "path": "/plugin-src/helloworld/elements/plugin-hello-world/plugin-hello-world.js",
+                                                "properties": {
+                                                    "view-mode": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

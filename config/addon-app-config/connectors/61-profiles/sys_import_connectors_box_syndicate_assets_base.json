@@ -1,0 +1,84 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "sys_import_connectors_box_syndicate_assets_base",
+      "name": "sys_import_connectors_box_syndicate_assets_base",
+      "type": "integrationprofile",
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "Connector",
+              "service": "ENTITY_IMPORT",
+              "channel": "BOX_SYNDICATE_ASSET_RESPONSE",
+              "format": "JSON",
+              "source": "internal",
+              "role": "admin",
+              "user": "system",
+              "subtype": "System",
+              "order": "10"
+            },
+            "jsonData": {
+              "integrationType": "System",
+              "isEnabled": "true",
+              "taskSubType": "SYNDICATE",
+              "isMergeableWithCustom": true,
+              "collect": {
+                "filter": {
+                  "include": {}
+                },
+                "channel": [
+                  {
+                    "settings": {
+                      "type": "RSJSON",
+                      "version": "1.1"
+                    },
+                    "type": "rdpConnector"
+                  }
+                ],
+                "format": {
+                  "settings": {
+                    "encoding": "utf8",
+                    "additionalSettings": {}
+                  },
+                  "type": "BOXRESPONSEJSON",
+                  "version": "1.1"
+                },
+                "isBinaryStreamPersistent": "false"
+              },
+              "transform": {
+                "settings": {
+                  "nullRecordTransformer": "true"
+                }
+              },
+              "publish": {
+                "channel": [
+                  {
+                    "settings": {
+                      "additionalSettings": {}
+                    },
+                    "type": "folderConnector"
+                  }
+                ],
+                "format": {
+                  "settings": {
+                    "additionalSettings": {}
+                  },
+                  "type": "RSJSON",
+                  "batchSize": 1,
+                  "version": "1.1"
+                },
+                "isBinaryStreamPersistent": "false"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

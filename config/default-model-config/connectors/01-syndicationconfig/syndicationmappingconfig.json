@@ -1,0 +1,33 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "{{TENANT}}_syndicationmappingconfig",
+      "name": "{{TENANT}}",
+      "type": "syndicationmappingconfig",
+      "data": {
+        "jsonData": {
+          "entityTypeMapping": {
+            "parentEntity": "product",
+            "childEntity": "sku",
+            "imageAsset": "image",
+            "videoAsset": "video",
+            "category": "classification"
+          },
+          "relationshipTypeMapping": {
+            "childof": "ischildof",
+            "imageof": "hasimages",
+            "videoof": "hasvideo"
+          },
+          "sourceToTargetMapping": {
+            "imageType": "imagetype"
+          }
+        }
+      }
+    }
+  ]
+}
