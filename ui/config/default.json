@@ -1,10 +1,10 @@
 {
     "envSettings": {
-        "id": "helloworld",
-        "server": "https://rdwengg-az-dev2.riversand.com",
-        "userid": "rdwadmin@riversand.com",
-        "authid": "lryFBhv1R9KA3HMJZHPCdThtFODah1M1",
-        "authsecret": "Z6u26qromsQZsfjGC_7Ue5WaeN8driXf96_dCzNIGSA0B8NuuUoGKcqU8zmXbCkb",
-        "tenantid": "rdwengg-az-dev2"
+        "id": "wfdesigner",
+        "server": "https://sepik01.riversand.com",
+        "userid": "archana.shah@riversand.com",
+        "authid": "G4uOqlaNHpjS620YzvEkHEo2U1x30Pjh",
+        "authsecret": "3xNx-CsVSjQM4kogzIovIudnbtx0NCjwI_bAu5_TsuZkrHKJP7zmQbNF3EihxB3A",
+        "tenantid": "sepik01"
     }   
 }

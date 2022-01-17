@@ -1,12 +1,9 @@
 {
-    "id": "helloworld",
-	"appName": "Hello world greeter",
-    "description": "This is a sample application",
+    "id": "wfdesigner",
+	"appName": "Workflow Designer",
+    "description": "This Aplication is for Workflow Designer",
     "sdkDependencies": {
-        "uiPluginSDK": "1.2.0",
-        "analyticsSDK": "1.0.0",
-        "connectorsSDK": "1.1.0",
-        "integrationSDK": "1.1.0",
-        "visualizationSDK": "1.3.0"
+        "uiPluginSDK": "1.2.0"
+       
     }
 }

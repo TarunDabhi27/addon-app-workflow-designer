@@ -1,1 +1,1 @@
-import './elements/plugin-hello-world/plugin-hello-world.js';
+import './elements/plugin-workflow-designer/plugin-workflow-designer.js';

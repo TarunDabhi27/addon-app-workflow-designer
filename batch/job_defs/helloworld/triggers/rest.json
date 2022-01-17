@@ -1,8 +1,0 @@
-{    
-    "id": "export",
-    "type": "rest_call",
-    "job_def": "rsconnect-runner",
-    "environment_variables": {
-        "MAX_RECORDS": "2000"
-    }
-}

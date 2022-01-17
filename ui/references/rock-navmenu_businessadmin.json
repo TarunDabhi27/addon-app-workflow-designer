@@ -1,0 +1,70 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_businessadmin_uiConfig",
+            "name": "rock-navmenu_businessadmin",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "system_user",
+                "createdDate": "2021-08-23T10:04:29.126-0500",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "shivam.verma@riversand.com_user",
+                "modifiedDate": "2021-08-30T03:57:13.243-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "channel": "_DEFAULT",
+                            "component": "rock-navmenu",
+                            "country": "_DEFAULT",
+                            "domain": "_DEFAULT",
+                            "entityType": "_DEFAULT",
+                            "relationship": "_DEFAULT",
+                            "role": "businessadmin",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                             
+                                "user-dashboard": {
+                                    "dataRoute": "user-dashboard",
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "dashboard": {
+                                            "visible": true,
+                                            "actions": {
+                                               
+                                                "workflow-designer-dashboard": {
+                                                    "dataRoute": "workflow-designer-dashboard",
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "icon": "pebble-icon:dashboard-user",
+                                                    "name": "workflow-designer-dashboard",
+                                                    "title": "Workflow Designer Dashboard"
+                                                }
+                                              
+                                            }
+                                        }
+                                    },
+                                    "displaySequence": 30,
+                                    "icon": "pebble-icon:dashboard-user",
+                                    "name": "user-dashboard",
+                                    "title": "{[DasARTit]}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

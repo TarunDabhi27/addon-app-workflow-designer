@@ -1,0 +1,61 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "app-repository_businessadmin_uiConfig",
+            "name": "app-repository_businessadmin",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "archana.shah@riversand.com_user",
+                "createdDate": "2021-08-27T08:42:28.285-0500",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "shivam.verma@riversand.com_user",
+                "modifiedDate": "2021-08-30T03:52:55.568-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "channel": "_DEFAULT",
+                            "component": "app-repository",
+                            "country": "_DEFAULT",
+                            "domain": "_DEFAULT",
+                            "entityType": "_DEFAULT",
+                            "relationship": "_DEFAULT",
+                            "role": "businessadmin",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "workflow-designer-dashboard": {
+                                    "dataRoute": "workflow-designer-dashboard",
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "nonMinimizable": true,
+                                    "noSettings": true,
+                                    "nonClosable": true,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-user",
+                                    "title": "Workflow Designer Dashboard",
+                                    "enabled": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

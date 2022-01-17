@@ -1,0 +1,42 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "plugin_plugin-workflow-designer-base_uiConfig",
+            "name": "plugin_plugin-workflow-designer",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "createdBy": "system",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "sepik.badmin@riversand.com_user",
+                "modifiedDate": "2021-08-26T05:13:57.232-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "plugin-workflow-designer",
+                            "sysApp": "_DEFAULT",
+                            "sysDomain": "_DEFAULT",
+                            "sysEntityType": "_DEFAULT",
+                            "sysRelationship": "_DEFAULT",
+                            "sysRole": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "properties": {
+                                    "message": "Welcome to the Riversand DataPlatform UI plugin!!"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
